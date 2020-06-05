@@ -1,4 +1,4 @@
-Implementation of Image Sharpening algorithm in C++ &amp; CUDA [WIP].
+Implementation of Image Sharpening algorithm in C++ &amp; CUDA.
 The algorithm is based on this tutorial (with few changes)
 https://lodev.org/cgtutor/filtering.html#Sharpen
 
@@ -20,7 +20,9 @@ g++ main_cpu.cpp -o main_cpu
 ./main_cpu
 ```
 GPU:
-work in progress
+```sh
+nvcc --run main_gpu.cu
+```
 
 ## Maintainer
 [Arsfiqball](https://github.com/Arsfiqball) | iqballmags@gmail.com
